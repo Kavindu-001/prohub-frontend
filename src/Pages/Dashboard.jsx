@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
-
+import { Box } from "@mui/material";
+import "../Styles/Dashboard2.css";
 const Dashboard = () => {
   return (
     <Box
@@ -31,6 +31,7 @@ const Dashboard = () => {
           borderRadius: "15px",
         }}
       >
+        
       </Box>
 
       {/* ROW 2 */}
@@ -68,6 +69,11 @@ const Dashboard = () => {
           borderRadius: "15px",
         }}
       >
+      <div className="aboutTrainersContainer">
+        <h1 className="aboutTrainers">
+          About Trainers 
+        </h1>
+      </div>
       </Box>
       <Box
         gridColumn="span 6"
@@ -78,8 +84,17 @@ const Dashboard = () => {
           justifyContent: "center",
           alignItems: "center",
           borderRadius: "15px",
+          borderTopLeftRadius: "15px",
+          borderTopRightRadius: "15px",
+          padding: "10px",
         }}
       >
+      <div className="ActivityStatusContainer">
+        <h1 className="ActivityStatus">
+         Avtivity Status
+        </h1>
+      </div>
+
       </Box>
     </Box>
   );

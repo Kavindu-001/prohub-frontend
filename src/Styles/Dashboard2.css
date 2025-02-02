@@ -1,0 +1,23 @@
+.ActivityStatus{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;   
+}
+.ActivityStatusContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.aboutTrainersContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    
+}
+.aboutTrainers{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
